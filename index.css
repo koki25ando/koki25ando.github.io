@@ -135,16 +135,29 @@ nav a{
 
 /* header editting starts*/
 
-/* medium */
+/* small */
 
 @media (min-width: 0){
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
+    background-size: 100% 500px;
+    background-position: cover;
+    height: 40%;
+  }
+}
+
+/* medium */
+
+@media (min-width: 400px){
+  header{
+    background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 500px;
+    background-position: cover;
+    height: 50%;
   }
 }
 
@@ -299,7 +312,7 @@ nav a{
 
 /* minimum */
 
-@media (min-width: 400px){
+@media (min-width: 0){
 
   .container{
     height:90%;
@@ -345,6 +358,7 @@ nav a{
 
 .box{
   display: table-cell;
+
 }
 
 .box:hover{
