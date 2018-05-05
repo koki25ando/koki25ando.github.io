@@ -137,7 +137,7 @@ nav a{
 
 /* small */
 
-@media (min-width: 0){
+@media (min-width: 30px){
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
