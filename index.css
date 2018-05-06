@@ -388,7 +388,20 @@ nav a{
 }
 
 .forth{
-  background-color: purple;
+  background-image: url("http://g.recordit.co/X3ntiuiVOs.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+.app_name{
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 /* table editting ends*/
