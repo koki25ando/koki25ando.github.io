@@ -330,37 +330,52 @@ nav a{
 
 /* header editting starts*/
 
-/* small */
+/* small 200px - 600px*/
 
-@media (min-width: 30px) {
-
-  header{
-    background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% 500px;
-    background-position: cover;
-    height: 40%;
-  }
-}
-
-/* medium */
-
-@media (min-width: 400px) {
+@media (min-width: 0) {
 
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100% 500px;
-    background-position: cover;
-    height: 50%;
+    background-size: cover;
+    background-position: center center;
+    height: 30%;
   }
 }
 
-/* large */
+/* medium 600px - 900px */
 
-@media (min-width: 770px) {
+@media (min-width: 600px) {
+
+  header{
+    background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 75%;
+  }
+}
+
+/* medium 900px - 1100px */
+
+@media (min-width: 900px) {
+
+  header{
+    background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 85%;
+  }
+}
+
+/* large 100px - max */
+
+@media (min-width: 1100px) {
+
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
@@ -369,58 +384,110 @@ nav a{
     background-position: center center;
     height: 90%;
   }
+
 }
 
-#name_introduction{
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 2em;
-  letter-spacing: 5px;
-  font-weight: bold;
-  margin: 0;
-}
+/* caption edit starts*/
 
-/* min */
+/* medium 800px - 1000px */
 
-@media (min-width: 0px){
+@media (min-width: 0){
 
-  #name_introduction{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    font-weight: bold;
-    margin: 0;
+  .header_caption{
+    padding-top: 15%;
   }
 
 }
 
-/* medium */
+/* medium 800px - 1000px */
+
+@media (min-width: 400px){
+
+  .header_caption{
+    padding-top: 13%;
+  }
+
+}
+
+/* medium 1000px - 1300px */
+
+@media (min-width: 1000px){
+
+  .header_caption{
+    padding-top: 10%;
+  }
+
+}
+
+/* large 1300px - max */
+
+@media (min-width: 1300px){
+
+  .header_caption{
+    padding-top: 5%;
+  }
+
+}
+
+
+/* caption edit ends*/
+
+/* min 300px - 600px */
+
+@media (min-width: 0){
+
+  #name_introduction{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 4em;
+    letter-spacing: 3px;
+  }
+
+}
+
+/* min 300px - 600px */
+
+@media (min-width: 400px){
+
+  #name_introduction{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 4em;
+    letter-spacing: 3px;
+  }
+
+}
+
+/* medium 600px- 900px */
 
 @media (min-width: 600px){
 
   #name_introduction{
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 4px;
     font-weight: bold;
     margin: 0;
+    font-size: 3em;
+    letter-spacing: 3px;
   }
 
 }
 
-/* large */
+/* large 900px - max */
 
-@media (min-width: 970px){
+@media (min-width: 900px){
 
   #name_introduction{
     text-align: center;
     font-family: sans-serif;
-    font-size: 2em;
-    letter-spacing: 5px;
     font-weight: bold;
     margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 3px;
   }
 
 }
