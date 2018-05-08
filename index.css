@@ -27,12 +27,53 @@ body {
 
 }
 
+/* large 450px - 650px */
 
-nav {
-  background-color: #333;
-  height: 10%;
-  padding-left: 1%;
-  color: white;
+@media (min-width: 0){
+
+  nav {
+    background-color: #333;
+    height: 4%;
+    padding-left: 0;
+    color: white;
+  }
+
+}
+
+/* large 650px - 800px */
+
+@media (min-width: 650px){
+
+  nav {
+    background-color: #333;
+    height: 6%;
+    padding-left: 0;
+    color: white;
+  }
+}
+
+/* large 800px - 1200px */
+
+@media (min-width: 800px){
+
+  nav {
+    background-color: #333;
+    height: 8%;
+    padding-left: 1%;
+    color: white;
+  }
+}
+
+/* large 1200px - max */
+
+@media (min-width: 1200px){
+
+  nav {
+    background-color: #333;
+    height: 10%;
+    padding-left: 1%;
+    color: white;
+  }
 }
 
 /* min */
@@ -47,13 +88,13 @@ nav {
   }
 }
 
-/* medium */
+/* medium 500px - 800px */
 
-@media (min-width: 780px){
+@media (min-width: 5S00px){
 
   #nav_title {
   float:left;
-  width: 40%;
+  width: 35%;
   height:100%;
   vertical-align: middle;
   position: relative;
@@ -61,9 +102,37 @@ nav {
 
 }
 
-/* large */
+/* medium 800px - 1100px */
 
-@media (min-width: 970px){
+@media (min-width: 800px){
+
+  #nav_title {
+  float:left;
+  width: 30%;
+  height:100%;
+  vertical-align: middle;
+  position: relative;
+  }
+
+}
+
+/* medium 1100px - 1500px */
+
+@media (min-width: 1100px){
+
+  #nav_title {
+  float:left;
+  width: 25%;
+  height:100%;
+  vertical-align: middle;
+  position: relative;
+  }
+
+}
+
+/* large 1500px - max */
+
+@media (min-width: 1500px){
   #nav_title {
   float:left;
   width: 20%;
@@ -78,9 +147,53 @@ nav a{
   top: 30%;
 }
 
-.nav_content{
-  font-size: 1.5em;
-  font-weight: bold;
+/* large 400px - 600px */
+
+@media (min-width: 400px){
+
+  nav a{
+    position:relative;
+    top: 50%;
+    font-size: 3em;
+  }
+
+  .nav_content{
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+}
+
+/* large 600px - 900px */
+
+@media (min-width: 600px){
+
+  nav a{
+    position:relative;
+    top: 50%;
+  }
+
+  .nav_content{
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+}
+
+/* large 900px - max */
+
+@media (min-width: 900px){
+
+  nav a{
+    position:relative;
+    top: 30%;
+  }
+
+  .nav_content{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
 }
 
 .nav_content:hover{
@@ -89,7 +202,31 @@ nav a{
   opacity:.6;
 }
 
-/* min */
+/* min 0 - 400px*/
+
+@media (min-width: 0){
+
+  #menu {
+    float: right;
+    width:20%;
+    height:100%;
+    margin-right: 1%;
+    position: relative;
+    display: inline-block;
+  }
+
+  #menu:hover{
+    background: red;
+    cursor: pointer;
+  }
+
+  .menu_content{
+    font-size: 4em;
+  }
+
+}
+
+/* min 400px - 800px */
 
 @media (min-width: 400px){
   #menu {
@@ -105,11 +242,65 @@ nav a{
     background: red;
     cursor: pointer;
   }
+
+  .menu_content{
+    font-size: 3em;
+  }
+
 }
 
-/* large */
+/* semi- medium 800px - 1100px */
 
 @media (min-width: 800px){
+
+  #menu {
+    float: right;
+    width:15%;
+    height:100%;
+    margin-right: 1%;
+    position: relative;
+    display: inline-block;
+  }
+
+  #menu:hover{
+    background: red;
+    cursor: pointer;
+  }
+
+  .menu_content{
+    font-size: 1.5em;
+  }
+
+}
+
+/* medium 1100px - 1500px */
+
+@media (min-width: 1100px){
+
+  #menu {
+    float: right;
+    width:15%;
+    height:100%;
+    margin-right: 1%;
+    position: relative;
+    display: inline-block;
+  }
+
+  #menu:hover{
+    background: red;
+    cursor: pointer;
+  }
+
+  .menu_content{
+    font-size: 1.5em;
+  }
+
+}
+
+
+/* large 1500px - max */
+
+@media (min-width: 1500px){
 
   #menu {
     float: right;
@@ -125,6 +316,10 @@ nav a{
     cursor: pointer;
   }
 
+  .menu_content{
+    font-size: 1.5em;
+  }
+
 }
 
 /* nav editting ends*/
@@ -137,11 +332,12 @@ nav a{
 
 /* small */
 
-@media (min-width: 30px){
+@media (min-width: 30px) {
+
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% 500px;
     background-position: cover;
     height: 40%;
@@ -150,11 +346,12 @@ nav a{
 
 /* medium */
 
-@media (min-width: 400px){
+@media (min-width: 400px) {
+
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: 100% 500px;
     background-position: cover;
     height: 50%;
@@ -163,11 +360,11 @@ nav a{
 
 /* large */
 
-@media (min-width: 770px){
+@media (min-width: 770px) {
   header{
     background-image: url('https://s3-ap-southeast-2.amazonaws.com/koki25ando/andojump1.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center center;
     height: 90%;
